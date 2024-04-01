@@ -1,0 +1,2 @@
+Revert Kubernetes 1.25 to cgroup v1
+As cgroup v2 is GA in 1.25+, and is also the default on Ubuntu 22.04, customers may have to downgrade to cgroups v1 due to compatibility issues with older software.
